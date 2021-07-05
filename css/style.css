@@ -5,12 +5,15 @@
     box-sizing: border-box;
 }
 body{
-    width: 80%;
+    width: 70%;
+    min-width: 1200px;
+    max-width: 1200px;
     padding: 30px;
     font-family: 'Big Shoulders Stencil Display', cursive;
     font-family: 'Press Start 2P', cursive;
     background-color: aquamarine;
     margin: 0 auto;
+   
 }
 h1{
     display: inline-block;
@@ -18,8 +21,12 @@ h1{
     vertical-align: middle;
     
 }
+footer{
+    text-align: center;
+}
 #heading{
    text-align: center;
+   margin-bottom: 40px;
 }   
 #brain{
     height: 80px;
@@ -31,4 +38,120 @@ h1{
     background-repeat: no-repeat;
     vertical-align: middle;
     margin-right: 20px;
+}
+
+.box{
+   
+    min-height: 300px;
+    width: calc(25% - 30px);
+    border-radius: 10px;
+    background-image: url(../img/pattern.png);
+    background-position: center;
+    background-size: contain;
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 30px;
+    position: relative;  
+}
+.float-left{
+    float: left;
+}
+.mgr{
+    margin-right: 30px;
+}
+
+
+.row2 div:nth-child(2){
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.position{  
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    color: red;
+    font-weight: bold;
+}
+.no-position
+{  
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+/* HOVER SECTION */
+
+.row1 div:nth-child(1):hover{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row1 div:nth-child(2):hover{
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row1 div:nth-child(3):hover{
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row1 div:nth-child(4):hover{
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row2 div:nth-child(1):hover{
+    background-image: url(../img/noun_Tractor_3134797.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row2 div:nth-child(3):hover{
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row2 div:nth-child(4):hover{
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row3 div:nth-child(1):hover{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row3 div:nth-child(2):hover{
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row3 div:nth-child(3):hover{
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.row3 div:nth-child(4):hover{
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box:hover .no-position{
+    display: block;
 }
