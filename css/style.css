@@ -19,15 +19,11 @@ h1{
     display: inline-block;
     font-size: 50px;
     vertical-align: middle;
-    
 }
 footer{
     text-align: center;
     margin-top: 30px;
 }
-
-
-
 .box{
    
     min-height: 300px;
@@ -39,6 +35,11 @@ footer{
     border: 2px solid rgb(175, 175, 175);
     margin-bottom: 30px;
     position: relative;  
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 .float-left{
     float: left;
