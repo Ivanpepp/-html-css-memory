@@ -25,7 +25,6 @@ footer{
     margin-top: 30px;
 }
 .box{
-   
     min-height: 300px;
     width: calc(25% - 30px);
     border-radius: 10px;
@@ -45,7 +44,7 @@ footer{
     float: left;
 }
 .mgr{
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 
